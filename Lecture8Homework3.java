@@ -8,7 +8,7 @@ public class Lecture8Homework3 {
         int year;
         System.out.println("Please enter year: ");
         year = scanner.nextInt();
-        boolean isDivisableOf4=  year % 4 == 0;
+        boolean isDivisableOf4 =  year % 4 == 0;
         boolean isNotDivisableOf100 = year % 100 != 0;
         boolean isDivisableOf100And400 = year % 100 == 0 && year % 400 ==0;
 
